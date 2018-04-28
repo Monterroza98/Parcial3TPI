@@ -1,0 +1,4 @@
+create-jdbc-connection-pool --datasourceclassname org.postgresql.ds.PGSimpleDataSource --restype javax.sql.DataSource --property user=user:password=db1234:DatabaseName=mantenimientodb:ServerName=dbpostgres:port=5432 test-pool
+create-jdbc-resource --connectionpoolid test-pool jdbc/TPI
+list-jdbc-connection-pools
+ping-connection-pool --echo test-pool
