@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="sv.uesocc.edu.ingenieria.tpi135_2018.mantto_ManttoWebApp-ejb_ejb_1.0-SNAPSHOTPU" transaction-type="JTA">
-    <jta-data-source>java:app/jdbc/tpi</jta-data-source>
-    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <jta-data-source>jdbc/TPI2018</jta-data-source>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Calendario</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.CalendarioExcepcion</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Diagnostico</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.DiagnosticoParte</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Equipo</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.EquipoDetalle</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Estado</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.EstadoMantenimientoDetalle</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.MantenimientoDetalle</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Marca</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Modelo</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.OrdenTrabajo</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Parte</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Paso</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Prioridad</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Procedimiento</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Responsable</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Solicitud</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.SubTipoMantenimiento</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoMantenimiento</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoParte</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoResponsable</class>
+    <class>sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Unidad</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
     <properties/>
   </persistence-unit>
 </persistence>
