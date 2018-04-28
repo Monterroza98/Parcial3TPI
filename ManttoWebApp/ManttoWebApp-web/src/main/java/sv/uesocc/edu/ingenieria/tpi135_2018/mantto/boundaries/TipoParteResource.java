@@ -7,9 +7,9 @@ package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.boundaries;
 
 import javax.ejb.EJB;
 import javax.ws.rs.Path;
-import sv.ues.TPI_2018.beans.AbstractInterface;
-import sv.ues.TPI_2018.beans.TipoParteFacadeLocal;
-import sv.ues.TPI_2018.entities.TipoParte;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans.AbstractInterface;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans.TipoParteFacadeLocal;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoParte;
 
 /**
  *

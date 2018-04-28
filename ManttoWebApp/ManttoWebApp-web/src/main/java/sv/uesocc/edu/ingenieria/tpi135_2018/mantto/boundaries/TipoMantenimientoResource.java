@@ -7,9 +7,9 @@ package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.boundaries;
 
 import javax.ejb.EJB;
 import javax.ws.rs.Path;
-import sv.ues.TPI_2018.beans.AbstractInterface;
-import sv.ues.TPI_2018.beans.TipoMantenimientoFacadeLocal;
-import sv.ues.TPI_2018.entities.TipoMantenimiento;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans.AbstractInterface;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans.TipoMantenimientoFacadeLocal;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoMantenimiento;
 
 /**
  *

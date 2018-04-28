@@ -5,12 +5,11 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.boundaries;
 
-import java.io.Serializable;
 import javax.ejb.EJB;
 import javax.ws.rs.Path;
-import sv.ues.TPI_2018.beans.AbstractInterface;
-import sv.ues.TPI_2018.beans.UnidadFacadeLocal;
-import sv.ues.TPI_2018.entities.Unidad;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans.AbstractInterface;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans.UnidadFacadeLocal;
+import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Unidad;
 
 /**
  *
