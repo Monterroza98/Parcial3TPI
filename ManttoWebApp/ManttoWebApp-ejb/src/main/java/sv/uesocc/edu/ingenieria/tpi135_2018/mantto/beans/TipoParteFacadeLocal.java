@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoParte;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.TipoParte;
  * @author joker
  */
 @Local
-public interface TipoParteFacadeLocal {
+public interface TipoParteFacadeLocal extends AbstractInterface<TipoParte>{
 
-    void create(TipoParte tipoParte);
-
-    void edit(TipoParte tipoParte);
-
-    void remove(TipoParte tipoParte);
-
-    TipoParte find(Object id);
-
-    List<TipoParte> findAll();
-
-    List<TipoParte> findRange(int[] range);
-
-    int count();
     
 }

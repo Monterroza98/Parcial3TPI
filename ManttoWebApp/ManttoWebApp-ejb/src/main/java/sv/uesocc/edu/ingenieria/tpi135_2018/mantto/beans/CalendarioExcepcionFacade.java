@@ -5,6 +5,7 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

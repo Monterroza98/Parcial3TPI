@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Prioridad;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Prioridad;
  * @author joker
  */
 @Local
-public interface PrioridadFacadeLocal {
+public interface PrioridadFacadeLocal extends AbstractInterface<Prioridad>{
 
-    void create(Prioridad prioridad);
-
-    void edit(Prioridad prioridad);
-
-    void remove(Prioridad prioridad);
-
-    Prioridad find(Object id);
-
-    List<Prioridad> findAll();
-
-    List<Prioridad> findRange(int[] range);
-
-    int count();
     
 }

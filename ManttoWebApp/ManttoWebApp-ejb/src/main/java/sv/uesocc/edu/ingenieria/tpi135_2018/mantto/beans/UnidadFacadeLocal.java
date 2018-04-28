@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Unidad;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Unidad;
  * @author joker
  */
 @Local
-public interface UnidadFacadeLocal {
+public interface UnidadFacadeLocal extends AbstractInterface<Unidad>{
 
-    void create(Unidad unidad);
-
-    void edit(Unidad unidad);
-
-    void remove(Unidad unidad);
-
-    Unidad find(Object id);
-
-    List<Unidad> findAll();
-
-    List<Unidad> findRange(int[] range);
-
-    int count();
     
 }

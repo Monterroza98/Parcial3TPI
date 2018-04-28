@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.MantenimientoDetalle;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.MantenimientoDetalle
  * @author joker
  */
 @Local
-public interface MantenimientoDetalleFacadeLocal {
+public interface MantenimientoDetalleFacadeLocal extends AbstractInterface<MantenimientoDetalle>{
 
-    void create(MantenimientoDetalle mantenimientoDetalle);
-
-    void edit(MantenimientoDetalle mantenimientoDetalle);
-
-    void remove(MantenimientoDetalle mantenimientoDetalle);
-
-    MantenimientoDetalle find(Object id);
-
-    List<MantenimientoDetalle> findAll();
-
-    List<MantenimientoDetalle> findRange(int[] range);
-
-    int count();
     
 }

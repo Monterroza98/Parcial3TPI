@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.CalendarioExcepcion;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.CalendarioExcepcion;
  * @author joker
  */
 @Local
-public interface CalendarioExcepcionFacadeLocal {
+public interface CalendarioExcepcionFacadeLocal extends AbstractInterface<CalendarioExcepcion>{
 
-    void create(CalendarioExcepcion calendarioExcepcion);
-
-    void edit(CalendarioExcepcion calendarioExcepcion);
-
-    void remove(CalendarioExcepcion calendarioExcepcion);
-
-    CalendarioExcepcion find(Object id);
-
-    List<CalendarioExcepcion> findAll();
-
-    List<CalendarioExcepcion> findRange(int[] range);
-
-    int count();
     
 }

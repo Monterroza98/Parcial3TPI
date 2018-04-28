@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Calendario;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Calendario;
  * @author joker
  */
 @Local
-public interface CalendarioFacadeLocal {
+public interface CalendarioFacadeLocal extends AbstractInterface<Calendario>{
 
-    void create(Calendario calendario);
-
-    void edit(Calendario calendario);
-
-    void remove(Calendario calendario);
-
-    Calendario find(Object id);
-
-    List<Calendario> findAll();
-
-    List<Calendario> findRange(int[] range);
-
-    int count();
     
 }

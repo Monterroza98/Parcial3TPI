@@ -5,7 +5,6 @@
  */
 package sv.uesocc.edu.ingenieria.tpi135_2018.mantto.beans;
 
-import java.util.List;
 import javax.ejb.Local;
 import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Modelo;
 
@@ -14,20 +13,7 @@ import sv.uesocc.edu.ingenieria.tpi135_2018.mantto.entities.Modelo;
  * @author joker
  */
 @Local
-public interface ModeloFacadeLocal {
+public interface ModeloFacadeLocal extends AbstractInterface<Modelo>{
 
-    void create(Modelo modelo);
-
-    void edit(Modelo modelo);
-
-    void remove(Modelo modelo);
-
-    Modelo find(Object id);
-
-    List<Modelo> findAll();
-
-    List<Modelo> findRange(int[] range);
-
-    int count();
     
 }
